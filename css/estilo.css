@@ -86,3 +86,20 @@ body{
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+/*GALERÍA*/
+.galeria{
+    background: rgb(210, 198, 198);
+}
+.galeria-contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.img{
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0 , 0.5);
+    cursor: pointer;
+}
