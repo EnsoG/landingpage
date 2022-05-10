@@ -8,20 +8,28 @@
     <link rel="stylesheet" href="css/estilo.css">
     <script src="https://kit.fontawesome.com/c15b744a04.js"></script>
 </head>
-<body>
-    <header class="hero">
+<body>    
+    <nav>
+        <ul class="nav-bar">
+            <li class="nav-item"><a href="#hero" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="#info" class="nav-link">Información</a></li>
+            <li class="nav-item"><a href="#servicios" class="nav-link">Servicios</a></li>
+            <li class="nav-item"><a href="#galeria" class="nav-link">Galería</a></li>
+        </ul>
+    </nav>
+    <header class="hero" id="hero">
         <div class="text-hero">
             <h1 class="text-60">Página de servicios</h1>
             <p class="text-25">Hola soy un cambio</p>
         </div>
     </header>
-    <section class="info">
+    <section class="info" id="info">
         <div class="contenedor">
             <h2 class="titulo">Información</h2>
             <p class="titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas necessitatibus quibusdam sit voluptatem, voluptate nam libero neque impedit cum dolores laboriosam voluptates doloribus quidem molestias soluta quod velit, qui vel.</p>
         </div>
     </section>
-    <section class="contenedor">
+    <section class="contenedor" id="servicios">
         <h2 class="titulo">Servicios</h2>
         <div class="contenedor-card">
             <article class="card">
@@ -46,7 +54,7 @@
         </div>
     </section>
     <!--GALERÍA-->
-    <section class="galeria">
+    <section class="galeria" id="galeria">
         <div class="contenedor">
             <aticle class="galeria-contenedor">
                 <img src="img/img1.png" class="img" alt="img 1">
@@ -58,7 +66,15 @@
             </aticle>
         </div>
     </section>
-    <footer>
+    <footer class="footer-color">
+        <div class="footer">
+            <h3>Información</h3>
+            <ul>
+                <li><a href="https:\\github.com" target="_blank">Github</a></li>
+                <li><a href="https:\\www.inacap.cl" target="_blank">INACAP</a></li>
+                <li><a href="https:\\google.cl" target="_blank">GOOGLE</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
